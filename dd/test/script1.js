@@ -10,3 +10,12 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+document.getElementById('hideA').onclick = function(){
+    document.getElementById('A').hidden=true;
+    document.getElementById('B').hidden=false;
+}
+document.getElementById('hideB').onclick = function(){
+    document.getElementById('B').hidden=true;
+    document.getElementById('A').hidden=false;
+}
+document.getElementById()
