@@ -1,0 +1,24 @@
+.question{
+    font-size: 30px;
+}
+.sticky{
+    top:0;
+    position:fixed;
+    width:100%;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    padding-left: 16px;
+    padding-top: 19px;
+    padding-bottom: 14px;
+}
+
+* {
+   font-family:  Arial, Helvetica, sans-serif;
+}
+
+
