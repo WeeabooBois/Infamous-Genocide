@@ -17,5 +17,9 @@
 * {
    font-family:  Arial, Helvetica, sans-serif;
 }
-
-.tests
+*{
+    margin:0;
+}
+.tests{
+    padding:50%
+}

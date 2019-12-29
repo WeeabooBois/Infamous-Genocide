@@ -5,21 +5,35 @@
     <title>INFAMOUS-GENOCIDE</title>
     <meta charset="utf-8">
     <script src="vendor/js/jquery-3.4.1.min.js"></script>
-    <script src="vendor/js/popper.min.js" async></script>
-    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+
+    <script src="https://kit.fontawesome.com/0be61fa4f3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Style.css">
-    <script src="vendor/js/bootstrap.min.js" defer></script>
+    <link rel="stylesheet" href="Stylenav.css">
+
 </head>
 
 <body>
-    <nav id="navbar" class="sticky nav navbar-expand-md navbar-dark bg-primary"> <a class="navbar-brand" href="#">RusLit</a>
-        <button class="navbar-toggler" type="button" data-toogle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"> <a class="nav-link" href="#">Profile</a> </li>
-            </ul>
-        </div>
-    </nav>
+
+<div class="header">
+    <h1 class="logo">RusLit</h1>
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+        <i class="fas fa-bars"></i>
+    </label>
+    <ul class="menu">
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">Russian</a>
+        <a href="#">Literature</a>
+        <label for="chk" class="hide-menu-btn">
+            <i class="fas fa-times"></i>
+        </label>
+    </ul>
+</div>
+
+
+
+
     <form action="loginpage.html" class="login-form">
         <h1>Register</h1>
          <div class="box">
